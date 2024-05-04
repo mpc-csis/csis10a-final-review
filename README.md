@@ -14,8 +14,8 @@ Do the following:
 
 1. Create a class called `Point`
 2. Add private instance variables to your Point class called `x` and `y` of type `double`
-3. Create a no-arg constructor
-4. Create a parameterized constructor that takes x and y
+3. Create a parameterized constructor that takes x and y
+4. Create a no-arg constructor
 5. x and y should be encapsulated. Create accessor (get) and mutator (set) methods for x and y
 6. Override the `toString` method so that it returns a string in the format of `(x, y)`, where x, and y are the instance values for the point. The signature of toString is `public String toString()`
 7. Override the `equals` method so that it compares the x and y values with those of another point. The signature of equals is: `public boolean equals(Object obj)`
@@ -31,7 +31,7 @@ Do the following:
     2. x = 2, y = 4 // yes the same value
     3. x = 4, y = 2
 4. Also in your main method use reference checking _and_ equality checking to compare point #1 with points #2 and #3. You should print out the result of each in a user-friendly manner.
-5. Run `PointCheck` using 
+5. Run `PointCheck`. If you're using maven use `mvn exec:java "-D.exec.mainClass=PointCheck"`
 
 ### Problem 3 - Arrays
 
